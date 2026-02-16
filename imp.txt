@@ -1,0 +1,13 @@
+1. GC content= (no.G + no.C)* 100/size
+2. For a gene to be valid 
+  a)size>=3
+  b)size%3==0
+3.
+ a)For DNA stop codon= TAA,TAG,TGA
+ b)For RNA stop codon= UAA,UAG,UGA
+4.AT content = no.A + no.T 
+5. In a protien, no of amino acid= no.A 
+6.molecular weight = size * amino_acid_weight
+7.
+ a)purine= no.A+no.G
+ b)pyrimidines= no.C+no.T
