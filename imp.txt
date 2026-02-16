@@ -11,3 +11,32 @@
 7.
  a)purine= no.A+no.G
  b)pyrimidines= no.C+no.T
+
+Lab 2 - Key Points
+1) Validate DNA: only A/T/G/C, else invalid
+2) GC% = (G + C) / length * 100
+3) Nucleotide counts: use a dict and loop
+4) Reverse complement: complement map then reverse
+5) Transcription: DNA to RNA by T -> U
+6) Translation (Biopython): Seq.translate()
+7) FASTA read (SeqIO): record.id and len(record.seq)
+8) Write GC% summary to CSV from FASTA
+9) Skip short sequences: use continue
+10) Motif search: scan windows across DNA
+11) Stop codon count: scan codons in steps of 3
+12) Stop on unknown base: break when 'N' found
+13) GC% function: return (G + C) / length * 100
+14) Transcribe function: replace T with U
+
+Lab 3 - Key Points
+1) Basic string ops: len(), count(), "ATG" in dna
+2) If/elif/else for GC classification
+3) For loop over bases and codons (step size 3)
+4) Simple codon translation with dict
+5) While loop for first stop codon position
+6) While loop to count first N GC bases
+7) Functions: gc_content, rev_comp, codon_count
+8) FASTA read: join lines not starting with '>'
+9) FASTA write: write GC% to a file
+10) Biopython basics: Seq complement/reverse_complement
+11) SeqIO read and write FASTA
